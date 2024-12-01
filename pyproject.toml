@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "scheduler"
+version = "0.1.0"
+description = ""
+authors = ["Daria Baranova <darya.baranova@softhub.by>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+plombery = "^0.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
